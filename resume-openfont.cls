@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[french]{babel}
+\usepackage{babel}
 
 % Package Imports
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
@@ -31,7 +31,13 @@
 \usepackage{fontspec}
 % Disable ligatures to be machine readable
 \defaultfontfeatures{Ligatures={NoRequired, NoCommon, NoContextual}}
-\setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic]{Lato-Light}
+\setmainfont[
+  Color=primary,
+  Path=fonts/lato/,
+  BoldItalicFont=Lato-Italic,
+  BoldFont=Lato-Regular,
+  ItalicFont=Lato-LightItalic
+]{Lato-Light}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 
 
@@ -68,7 +74,7 @@ Last Updated on \today
 % Headings command
 \titleformat
   {\section}
-  {\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Light}\fontsize{16pt}{24pt}\selectfont}
+  {\color{headings}\scshape\fontspec[Path = fonts/lato/]{Lato-Light}\fontsize{15pt}{22pt}\selectfont}
   {\kern-0.1ex}
   {0em}
   {\MakeUppercase{#1}}
@@ -77,26 +83,26 @@ Last Updated on \today
 % Subeadings command
 \titleformat
   {\subsection}
-  {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bold}\fontsize{12pt}{12pt}\selectfont}
+  {\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bold}\fontsize{11pt}{11pt}\selectfont}
   {\kern-0.05ex}
   {0em}
   {\MakeUppercase{#1}}
   []
 
 \newcommand{\runsubsection}[1]{%
-{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bold}\fontsize{12pt}{12pt}\selectfont\bfseries {#1} \normalfont}}
+{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Bold}\fontsize{11pt}{11pt}\selectfont\bfseries {#1} \normalfont}}
 
 % Descriptors command
 \newcommand{\descript}[1]{%
-{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {| #1 \\} \normalfont}}
+{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {| #1 \\} \normalfont}}
 
 % Descriptors command
 \newcommand{\subtitle}[1]{%
-{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont {#1 \\} \normalfont}}
+{\color{subheadings}\raggedright\scshape\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1 \\} \normalfont}}
 
 % Location command
 \newcommand{\location}[1]{%
-{\color{headings}\raggedright\fontspec[Path = fonts/raleway/,ItalicFont=Raleway-Light]{Raleway-Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}}
+{\color{headings}\raggedright\fontspec[Path = fonts/raleway/,ItalicFont=Raleway-Light]{Raleway-Medium}\fontsize{9pt}{11pt}\selectfont {#1\\} \normalfont}}
 
 % Bullet Lists with fewer gaps command
 \usepackage{enumitem}
