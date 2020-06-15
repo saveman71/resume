@@ -19,7 +19,8 @@
 }
 
 % Color definitions
-\usepackage[usenames,dvipsnames]{xcolor}
+\PassOptionsToPackage{usenames,dvipsnames}{xcolor}
+% \usepackage[usenames,dvipsnames]{xcolor}
 \definecolor{date}{HTML}{666666}
 \definecolor{primary}{HTML}{2b2b2b}
 \definecolor{headings}{HTML}{444444}
@@ -69,7 +70,7 @@ Last Updated on \today
 \usepackage[explicit]{titlesec}
 \titlespacing{\section}{0pt}{0pt}{2pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
-\newcommand{\sectionsep}{\vspace{8pt}}
+\newcommand{\sectionsep}{\vspace{6pt}}
 
 % Headings command
 \titleformat
