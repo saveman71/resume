@@ -1,10 +1,10 @@
 all: preview.png antoine-bolvy-resume.pdf antoine-bolvy-resume-fr.pdf
 
-antoine-bolvy-resume.pdf:
+antoine-bolvy-resume.pdf: resume.tex
 	lualatex resume
 	mv resume.pdf antoine-bolvy-resume.pdf
 
-antoine-bolvy-resume-fr.pdf:
+antoine-bolvy-resume-fr.pdf: resume-fr.tex
 	lualatex resume-fr
 	mv resume-fr.pdf antoine-bolvy-resume-fr.pdf
 
