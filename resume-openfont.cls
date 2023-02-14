@@ -103,6 +103,10 @@ Last Updated on \today
 
 % Location command
 \newcommand{\location}[1]{%
+{\color{headings}\raggedright\fontspec[Path = fonts/raleway/,ItalicFont=Raleway-Light]{Raleway-Medium}\fontsize{9pt}{11pt}\selectfont {#1\\} \normalfont}\vspace{4pt}}
+
+% Small heading command
+\newcommand{\smallheading}[1]{%
 {\color{headings}\raggedright\fontspec[Path = fonts/raleway/,ItalicFont=Raleway-Light]{Raleway-Medium}\fontsize{9pt}{11pt}\selectfont {#1\\} \normalfont}}
 
 % Bullet Lists with fewer gaps command
