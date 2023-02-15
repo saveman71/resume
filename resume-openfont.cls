@@ -201,3 +201,21 @@ T\kern-.12em\lower.2ex\hbox{\small E}\kern-.05emX}}
   \parsep0pt
 }
 {\normalsize\end{itemize}}
+
+\definecolor{labels}{HTML}{aaaaaa}
+% Language tags
+\newtcbox{\badge}[1][red]{
+  grow to right by=-3pt,
+  enlarge bottom by=8pt,
+  on line,
+  arc=2pt,
+  colback=white,
+  colframe=labels,
+  fontupper=\scriptsize\strut,
+  boxrule=0.4pt,
+  boxsep=0pt,
+  left=2pt,
+  right=2pt,
+  top=2pt,
+  bottom=1pt
+}
