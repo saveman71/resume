@@ -24,6 +24,7 @@
 \definecolor{date}{HTML}{666666}
 \definecolor{primary}{HTML}{2b2b2b}
 \definecolor{headings}{HTML}{444444}
+\definecolor{location}{HTML}{888888}
 \definecolor{headingsrule}{HTML}{00b6ff}
 \definecolor{subheadings}{HTML}{333333}
 \definecolor{headingsrulegray}{HTML}{eeeeee}
@@ -103,7 +104,7 @@ Last Updated on \today
 
 % Location command
 \newcommand{\location}[1]{%
-{\color{headings}\raggedright\fontspec[Path = fonts/raleway/,ItalicFont=Raleway-Light]{Raleway-Medium}\fontsize{9pt}{11pt}\selectfont {#1\\} \normalfont}\vspace{4pt}}
+{\color{location}\raggedright\fontspec[Path = fonts/raleway/,ItalicFont=Raleway-Light]{Raleway-Regular}\fontsize{9pt}{11pt}\selectfont {#1\\} \normalfont}\vspace{2pt}}
 
 % Small heading command
 \newcommand{\smallheading}[1]{%

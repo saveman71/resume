@@ -6,18 +6,25 @@
 \begin{document}
 
 \noindent%
-\begin{minipage}{.5\textwidth}
+\begin{minipage}{.7\textwidth}
 \kern-0.35em
 {
-  \fontsize{28pt}{28pt}
+  \fontsize{24}{24}
   \fontspec[Path = fonts/roboto/]{Roboto-Light}\selectfont Antoine Bolvy\\
 }
-% \textit{\myage{1996}{09}{04} year old}\\
-\vspace{5pt}
+
+\kern-0.35em
+{
+  \parskip2pt
+  \fontsize{8pt}{10pt}
+  \fontspec[Path = fonts/roboto/]{Roboto-Light}\selectfont I am looking for a company that has environmental and social impact. After several years as a Lead Developer in startups and several freelance missions, I have acquired strong expertise and autonomy.\par
+  With 7 years of experience in Fullstack JS (Node/React/MongoDB/PostgreSQL), I am very open to another stack because I enjoy discovering new technologies and staying at the forefront.
+}% \textit{\myage{1996}{09}{04} year old}\\
+\vspace{8pt}
 
 
 \end{minipage}% important to remove space between minipages, do not remove comment
-\begin{minipage}{.5\textwidth}
+\begin{minipage}{.3\textwidth}
 \begin{flushright}
 \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Regular}\href{tel:+33675455349}{+33675455349}\\
 \href{mailto:antoine.bolvy@gmail.com}{antoine.bolvy@gmail.com}\\
@@ -40,42 +47,6 @@ Paris, France\\
 \noindent%
 \begin{minipage}[t]{0.31\textwidth}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Education}
-
-\subsection{Epitech}
-\subtitle{Master in Computer Science}
-\location{2016 - 2018 | Paris, France}
-Valedictorian
-\sectionsep
-
-\subsection{Epitech}
-\subtitle{BS in Computer Science}
-\location{2013 - 2016 | Lyon, France}
-Bachelor GPA: 3.71/4.00
-\vspace{0.8\topsep} % Hacky fix for awkward extra vertical space
-\begin{coursework}
-\item Artificial Intelligence
-\item Computer Graphics
-\item Networks TCP/IP
-\item Linux Programming, System APIs
-\item Object-Oriented Algorithms
-\end{coursework}
-\sectionsep
-
-\subsection{Concordia University}
-\subtitle{Visiting student in Computer Sciences, Graduate Level}
-\location{2016 - 2017 | Montréal, Canada}
-\begin{coursework}
-\item Multicore Programming
-\item Computer Animation
-\item Advanced Game Development
-\item Operating Systems
-\end{coursework}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
@@ -123,6 +94,38 @@ French: &Native proficiency
   \item Project management
 \end{tightemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{Epitech}
+\subtitle{Master in Computer Science\\Valedictorian}
+\location{2013 - 2018 | Paris, France}
+\sectionsep
+
+\subsection{Concordia University}
+\subtitle{Visiting student in Computer Sciences, Graduate Level}
+\location{2016 - 2017 | Montréal, Canada}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     HOBBIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Passions}
+
+\subsection{Cooking}
+I love cooking and making complex dishes (e.g. Neapolitan pizza, pastries, etc.). I am a vegetarian and I enjoy making my desserts plant-based.
+
+\sectionsep
+
+\subsection{Espresso}
+I enjoy discovering new flavors and taking care of my coffee machines.
+\sectionsep
+
+\subsection{3D Printing}
+Spare parts, decorative objects, upgrades for my coffee machine ;)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -142,7 +145,8 @@ French: &Native proficiency
 \runsubsection{Self employed}%
 \descript{Senior Full-Stack Software Engineer}
 \location{2015 - Present | Remote}
-\vspace{\topsep}
+\badge{Node.js}\badge{TypeScript}\badge{PostgreSQL}\badge{React}\badge{Python}\badge{AWS}\badge{Terraform}\\
+\vspace{0.5\topsep}
 \begin{tightemize}
 \item Missions from several days to several months
 \item Various clients: startups, SMEs and large groups
@@ -153,8 +157,9 @@ French: &Native proficiency
 
 
 \runsubsection{La Belle Assiette}%
-\descript{Senior Software Engineer}%
-\location{Sept 2017 - June 2022 (5 ans) | Paris, France}
+\descript{Lead Senior Software Engineer}%
+\location{Sept 2017 - June 2022 (5 years) | Paris, France}
+\badge{Node.js}\badge{MongoDB/mongoose}\badge{React}\badge{AngularJS}\badge{AWS}\badge{Terraform}\\
 La Belle Assiette brings talented chefs into your kitchen so you can enjoy hosting dinners without the stress of cooking or cleaning. \href{https://labelleassiette.co.uk}{Website}
 \vspace{\topsep}
 \begin{tightemize}
@@ -167,6 +172,7 @@ La Belle Assiette brings talented chefs into your kitchen so you can enjoy hosti
 \runsubsection{Kids-OK}%
 \descript{Software Engineer}%
 \location{Aug 2015 – Jul 2016 | Lyon, France}
+\badge{Node.js}\badge{MongoDB/mongoose}\badge{AngularJS}\badge{Android/Java}\\
 Kids-OK was a Lyon-based startup that wanted to offer parents solutions to protect their kids on new technology and social networks. \href{https://i.imgur.com/ZAXWuZN.png}{Website (archived)}
 \vspace{\topsep}
 \begin{tightemize}
@@ -179,6 +185,7 @@ Kids-OK was a Lyon-based startup that wanted to offer parents solutions to prote
 \runsubsection{AnyFetch}%
 \descript{Software Engineer (Internship)}%
 \location{Jul 2014 – Mar 2015 | Lyon, France}
+\badge{Node.js}\badge{MongoDB/mongoose}\badge{Chrome extension}\\
 AnyFetch was a startup aiming to provide people with a cloud-wide document search, integrating with popular services such as Gmail, Dropbox, etc. \href{https://i.imgur.com/B3MMD6Y.png}{Website (archived)}, \href{https://www.producthunt.com/posts/anyfetch}{Product Hunt post}
 \vspace{\topsep}
 \begin{tightemize}
@@ -195,17 +202,6 @@ AnyFetch was a startup aiming to provide people with a cloud-wide document searc
 \descript{Contributor and co-maintainer}%
 \location{Jan 2015 – Present}
 KISS Launcher is a blazingly fast open-source launcher for Android. \href{http://kisslauncher.com/}{Website}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards \& Hackathons}
-\begin{tabular}{@{}rll}
-2016       & Finalist    & Google Hash Code 2016\\
-2015	     & Participant & Wikimedia Hackathon in Lyon, France
-\end{tabular}
 \sectionsep
 
 \end{minipage}
