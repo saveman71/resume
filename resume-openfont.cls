@@ -8,6 +8,11 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
+\usepackage{scalerel}
+\newcommand{\emoji}[1]{
+  {\setmainfont{Noto Color Emoji}[Renderer=Harfbuzz]{#1}}
+}
+
 \usepackage{babel}
 
 % Package Imports
